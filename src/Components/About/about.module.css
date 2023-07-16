@@ -1,0 +1,15 @@
+.aboutMeContainer {
+    width: 100%;
+    color: lightgray;
+}
+
+.aboutMeH3 {
+    margin: 15px 0;
+    font-weight: 600;
+}
+
+@media (max-width: 950px) {
+    .aboutMeContainer {
+        width: 95%;
+    }
+}

@@ -1,0 +1,19 @@
+.drawToggleContainer {
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    z-index: 200;
+    background-color: #ffffff45;
+    width: 30px;
+    height: 30px;
+    padding: 10px;
+    box-sizing: border-box;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.drawToogleBar {
+    color: lightgray;
+}

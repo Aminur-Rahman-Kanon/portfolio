@@ -1,0 +1,157 @@
+.contactContainer {
+    width: 100%;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: flex-start;
+    color: lightgray;
+}
+
+.contactH3 {
+    margin: 15px 0;
+}
+
+.contactP {
+    margin: 5px 0;
+    line-height: 20px;
+}
+
+.contactInfoContainer {
+    width: 100%;
+    margin: 15px 0;
+}
+
+.formContainer {
+    width: 95%;
+    margin: 15px 0;
+    padding: 15px;
+    box-sizing: border-box;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #2d2d39;
+}
+
+.formInputContainer {
+    width: 95%;
+    height: 50px;
+    margin: 15px 0;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.contactFormIcon {
+    font-size: 10px;
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: black;
+    color: lightgray;
+}
+
+.contactFormInput {
+    width: 94%;
+    height: 50px;
+    padding: 10px;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+    background-color: #16161c;
+    color: lightgray;
+}
+
+.contactFormInput.wrongInput {
+    background-color: #ff000033;
+}
+
+.formTextareaContainer {
+    width: 95%;
+    height: 150px;
+    margin: 15px 0;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    background-color: black;
+}
+
+.contactFormTextarea {
+    width: 94%;
+    height: 150px;
+    padding: 10px;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+    background-color: #16161c;
+    color: lightgray;
+}
+
+.submitBtn {
+    width: 200px;
+    height: 40px;
+    margin: 15px 0;
+    border: 1px solid rgb(224, 118, 24);
+    border-radius: 5px;
+    background-color: rgb(224, 118, 24);
+    color: white;
+    opacity: 0.9;
+    cursor: pointer;
+}
+
+.submitBtn:hover {
+    opacity: 1;
+}
+
+.submitBtn:disabled {
+    opacity: 0.5;
+    cursor: default;
+}
+
+.submitBtn:disabled:hover {
+    background-color: rgb(224, 118, 24);
+}
+
+.statusMsgContainer {
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.statusMsgH3 {
+    color: lightgray;
+    margin: 10px;
+}
+
+.statusMsgP {
+    margin: 3px;
+    color: lightgray;
+}
+
+.statusMsgBtn {
+    width: 200px;
+    height: 40px;
+    margin: 20px auto;
+    border: 1px solid rgb(224, 118, 24);
+    background-color: rgb(224, 118, 24);
+    color: white;
+    cursor: pointer;
+    opacity: 0.9;
+}
+
+.statusMsgBtn:hover {
+    opacity: 1;
+}
+
+@media (max-width: 500px) {
+    .submitBtn {
+        width: 95%;
+    }
+
+    .statusMsgH3 {
+        text-align: center;
+    }
+}

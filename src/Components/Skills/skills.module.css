@@ -1,0 +1,52 @@
+.skillsContainer {
+    width: 100%;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: flex-start;
+    color: lightgray;
+    transition: all 0.3s ease-out;
+}
+
+.skillsH3 {
+    margin: 15px 0;
+}
+
+.skillsLink {
+    text-decoration: none;
+    color: #478ed4;
+}
+
+.skillsStackIconsContainer {
+    width: 100%;
+    margin: 30px auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.iconContainer {
+    width: 150px;
+    padding: 10px;
+    box-sizing: border-box;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;   
+}
+
+.icon {
+    width: 70px;
+}
+
+.iconP {
+    text-align: center;
+    font-size: 13px;
+}
+
+@media (max-width: 600px) {
+    .iconContainer {
+        width: 100px;
+    }
+}

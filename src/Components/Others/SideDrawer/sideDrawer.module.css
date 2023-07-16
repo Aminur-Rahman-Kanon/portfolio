@@ -1,0 +1,15 @@
+.sideDrawerContainer {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 600;
+    width: 70%;
+    min-width: 280px;
+    display: block;
+    transform: translate(0);
+    transition: all 0.3s ease-out;
+}
+
+.sideDrawerContainer.off {
+    transform: translate(-100%);
+}

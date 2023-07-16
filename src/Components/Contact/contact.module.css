@@ -13,7 +13,9 @@
 
 .contactP {
     margin: 5px 0;
-    line-height: 20px;
+    font-size: 14px;
+    letter-spacing: 0.4px;
+    color: #ededed;
 }
 
 .contactInfoContainer {
@@ -59,6 +61,8 @@
     outline: none;
     background-color: #16161c;
     color: lightgray;
+    font-size: 14px;
+    letter-spacing: 0.4px;
 }
 
 .contactFormInput.wrongInput {
@@ -153,5 +157,9 @@
 
     .statusMsgH3 {
         text-align: center;
+    }
+
+    .formContainer {
+        width: 100%;
     }
 }

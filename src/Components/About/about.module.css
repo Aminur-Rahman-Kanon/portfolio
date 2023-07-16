@@ -8,8 +8,8 @@
     font-weight: 600;
 }
 
-@media (max-width: 950px) {
-    .aboutMeContainer {
-        width: 95%;
-    }
+.aboutMeP {
+    font-size: 14px;
+    color: #ededed;
+    text-align: justify;
 }

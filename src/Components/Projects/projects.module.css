@@ -8,8 +8,18 @@
     transition: all 0.3s ease-out;
 }
 
+.projectH2 {
+    margin: 0 0 10px 0;
+}
+
 .projectH3 {
     margin: 15px 0;
+}
+
+.projectP {
+    font-size: 14px;
+    color: #ededed;
+    text-align: justify;
 }
 
 .projectsItem {
@@ -63,17 +73,6 @@
     transition: all 0.3s ease-out;
 }
 
-.projectsLink:hover {
-}
-
-.projectH2 {
-    margin: 0 0 10px 0;
-}
-
-.projectP {
-    margin: 5px 0;
-    font-size: 14px;
-}
 
 @media (max-width: 600px) {
     .projectContainer {

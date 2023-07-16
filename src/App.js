@@ -14,6 +14,7 @@ function App() {
 
     const [sidePanel, setSidePanel] = useState(false);
     const [backdrop, setBackdrop] = useState(false);
+    const [page, setPage] = useState('');
 
     const smoothScroll = (id) => {
       const element = document.getElementById(id);
@@ -22,6 +23,7 @@ function App() {
         block: 'start',
         inline: 'center'
       })
+      setPage(id);
     }
 
     const toggleSidePanel = () => {
@@ -34,10 +36,10 @@ function App() {
         <Backdrop backdrop={backdrop} toggleBackdrop={ toggleSidePanel }/>
         <div className={styles.appContainer}>
             <div className={styles.scrollBarContainer}>
-            <span className={styles.scrollBarItem} onClick={() => smoothScroll('intro')}>Intro</span>
-            <span className={styles.scrollBarItem} onClick={() => smoothScroll('skills')}>Skills</span>
-            <span className={styles.scrollBarItem} onClick={() => smoothScroll('projects')}>projects</span>
-            <span className={styles.scrollBarItem} onClick={() => smoothScroll('contact')}>contact</span>
+                <div className={page === 'intro' ? `${styles.scrollBarItem} ${styles.active}` : styles.scrollBarItem} onClick={() => smoothScroll('intro')}>Intro</div>
+                <div className={page === 'skills' ? `${styles.scrollBarItem} ${styles.active}` : styles.scrollBarItem} onClick={() => smoothScroll('skills')}>Skills</div>
+                <div className={page === 'projects' ? `${styles.scrollBarItem} ${styles.active}` : styles.scrollBarItem} onClick={() => smoothScroll('projects')}>Projects</div>
+                <div className={page === 'contact' ? `${styles.scrollBarItem} ${styles.active}` : styles.scrollBarItem} onClick={() => smoothScroll('contact')}>Contact</div>
             </div>
             <DrawToggle toggleSidePanel={ toggleSidePanel }/>
             <SideDrawer sidePanel={sidePanel}/>

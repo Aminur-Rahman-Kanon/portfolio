@@ -12,6 +12,12 @@
     margin: 15px 0;
 }
 
+.skillsP {
+    font-size: 14px;
+    color: #ededed;
+    text-align: justify;
+}
+
 .skillsLink {
     text-decoration: none;
     color: #478ed4;

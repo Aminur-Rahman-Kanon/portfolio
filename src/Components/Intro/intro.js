@@ -11,7 +11,7 @@ function Intro () {
             <div className={styles.introItemHeaderContainer}>
                 <div className={styles.introItemHeaderItems}>
                     <h1 className={styles.introH1}>Discover my Amazing Skills!</h1>
-                    <p className={styles.introP}>code: Hello world!</p>
+                    <p className={styles.introP}>Front End Developer</p>
                     <button className={styles.exploreBtn}>Explore Now</button>
                 </div>
                 <div className={styles.introItemHeaderLogoContainer}>

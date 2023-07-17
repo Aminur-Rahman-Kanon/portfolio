@@ -9,12 +9,13 @@
 
 .contactH3 {
     margin: 15px 0;
+    font-size: 20px;
+    color: #f2f2f2;
 }
 
 .contactP {
     margin: 5px 0;
-    font-size: 14px;
-    letter-spacing: 0.4px;
+    font-size: 15px;
     color: #ededed;
 }
 
@@ -32,7 +33,7 @@
     flex-flow: column;
     justify-content: center;
     align-items: center;
-    background-color: #2d2d39;
+    background-color: #37374afa;
 }
 
 .formInputContainer {
@@ -148,6 +149,12 @@
 
 .statusMsgBtn:hover {
     opacity: 1;
+}
+
+.linkedin {
+    color: #82bef9;
+    text-decoration: none;
+    cursor: pointer;
 }
 
 @media (max-width: 500px) {

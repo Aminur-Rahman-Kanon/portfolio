@@ -127,12 +127,13 @@ function Contact() {
         </Modal>
         <div className={styles.contactContainer} id="contact">
             <h3 className={styles.contactH3}>Contact</h3>
-            <p className={styles.contactP}>What would you do if you had a software expert available at your fingertips?</p>
-            <p className={styles.contactP}>Want to start new project? Or just say hey.</p>
+            <p className={styles.contactP}>I would love to discuss how I can contribute to your projects or answer any questions you may have. Feel free to reach out to me through the following channels:</p>
             <div className={styles.contactInfoContainer}>
                 <p className={styles.contactP}><strong>Email:</strong> md.aminur.rahman.kanon@gmail.com</p>
                 <p className={styles.contactP}><strong>Phone:</strong> +447510268021</p>
             </div>
+            <p className={styles.contactP}>You can also find me on <a href='https://linkedin.com/in/aminur-rahman-kanon' target='_blank' className={styles.linkedin}>Linkedin</a> to connect professionally and stay updated on my latest projects and endeavors.</p>
+            <p className={styles.contactP}>I look forward to hearing from you and exploring opportunities to collaborate!</p>
 
             <form className={styles.formContainer} ref={formRef} onSubmit={submitHandller}>
                 <div className={styles.formInputContainer}>

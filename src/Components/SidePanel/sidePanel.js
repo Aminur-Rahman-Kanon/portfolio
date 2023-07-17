@@ -4,7 +4,7 @@ import person from '../../Assets/person1.jpg';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faLinkedin, faGithub } from '@fortawesome/free-brands-svg-icons';
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
-import cv from '../../Assets/files/cv.docx';
+import cv from '../../Assets/files/Aminur Rahman.docx';
 
 function SidePanel () {
     return (
@@ -26,10 +26,6 @@ function SidePanel () {
                     <li className={styles.personDetailsList}>
                         <h6 className={styles.sidePanelH6}>City</h6>
                         <p className={styles.sidePanelP}>London</p>
-                    </li>
-                    <li className={styles.personDetailsList}>
-                        <h6 className={styles.sidePanelH6}>Age</h6>
-                        <p className={styles.sidePanelP}>31</p>
                     </li>
                 </ul>
 

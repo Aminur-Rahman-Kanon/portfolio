@@ -20,7 +20,7 @@ function Projects () {
                     <div className={styles.projectsDetailsContainer}>
                         <h2 className={styles.projectH2}>Nihon Chuko Sha Auto</h2>
                         <p className={styles.projectP}>Semi-commerce website for cars auction and parts</p>
-                        <p className={styles.projectP}><strong>Built with:</strong>A MERN stack web application using Reactjs, Redux, Nodejs (Express), MongoDB, Firebase Storage, Firebase Database, and Email.js and cloud hosting.</p>
+                        <p className={styles.projectP}><strong>Built with:</strong> MERN stack web application using Reactjs, Redux, Nodejs (Express), MongoDB, Firebase Storage, Firebase Database, and Email.js and cloud hosting.</p>
                         <div className={styles.projectsLinkGroup}>
                             <a href='https://github.com/Aminur-Rahman-Kanon/ncs-client' className={styles.projectsLink}>Client Source Code</a>
                             <a href='https://github.com/Aminur-Rahman-Kanon/ncs-server' className={styles.projectsLink}>Server Source Code</a>
@@ -34,7 +34,7 @@ function Projects () {
                     <div className={styles.projectsDetailsContainer}>
                         <h2 className={styles.projectH2}>Phone Clinic</h2>
                         <p className={styles.projectP}>An online phone, tablet and laptop repair booking service</p>
-                        <p className={styles.projectP}><strong>Built with:</strong>A MERN stack web application using Reactjs, Nodejs (Express), MongoDB and Emailjs, Cloud hosting and some third party React Components.</p>
+                        <p className={styles.projectP}><strong>Built with:</strong> MERN stack web application using Reactjs, Nodejs (Express), MongoDB and Emailjs, Cloud hosting and some third party React Components.</p>
                         <div className={styles.projectsLinkGroup}>
                             <a href="https://github.com/Aminur-Rahman-Kanon/phoneClinicClient" className={styles.projectsLink}>Client Source code</a>
                             <a href="https://github.com/Aminur-Rahman-Kanon/phoneClinicClient" className={styles.projectsLink}>Server Source code</a>
@@ -48,7 +48,7 @@ function Projects () {
                     <div className={styles.projectsDetailsContainer}>
                         <h2 className={styles.projectH2}>Cycle Fix</h2>
                         <p className={styles.projectP}>An online bike and e-scooter repair booking service</p>
-                        <p className={styles.projectP}><strong>Built with:</strong>A MERN stack web application using Reactjs, React calender, Nodejs(Express), mongoDB, Stripe(Payment service), nodeMailer, Google login, View-Engine(EJS), JWT, Cloud hosting and some other third party React Components.</p>
+                        <p className={styles.projectP}><strong>Built with:</strong> MERN stack web application using Reactjs, React calender, Nodejs(Express), mongoDB, Stripe(Payment service), nodeMailer, Google login, View-Engine(EJS), JWT, Cloud hosting and some other third party React Components.</p>
                         <div className={styles.projectsLinkGroup}>
                             <a href="https://github.com/Aminur-Rahman-Kanon/cycleFixClient" className={styles.projectsLink}>Client Source Code</a>
                             <a href="https://github.com/Aminur-Rahman-Kanon/cycleFixServer" className={styles.projectsLink}>Server Source Code</a>
@@ -62,7 +62,7 @@ function Projects () {
                     <div className={styles.projectsDetailsContainer}>
                         <h2 className={styles.projectH2}>Karkhana</h2>
                         <p className={styles.projectP}>An online store for selling womens casual jewelleries</p>
-                        <p className={styles.projectP}><strong>Built with:</strong>a MERN stack web application built using Reactjs, Nodejs(Express), mongoDB, Firebase storage, Stripe(Payment system), CSS, React-Query, Context-Api, View-Engine(EJS), JWT, Cloud hosting and some other third party React Components.</p>
+                        <p className={styles.projectP}><strong>Built with:</strong> MERN stack web application built using Reactjs, Nodejs(Express), mongoDB, Firebase storage, Stripe(Payment system), CSS, React-Query, Context-Api, View-Engine(EJS), JWT, Cloud hosting and some other third party React Components.</p>
                         <div className={styles.projectsLinkGroup}>
                             <a href='https://github.com/Aminur-Rahman-Kanon/karkhana-client' className={styles.projectsLink}>Client Source Code</a>
                             <a href='https://github.com/Aminur-Rahman-Kanon/karkhana-server' className={styles.projectsLink}>Server Source Code</a>

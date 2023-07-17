@@ -19,6 +19,10 @@
   justify-content: center;
   align-items: center;
   z-index: 100;
+  padding: 0 5px;
+  height: 275px;
+  background-color: #00000047;
+  border-radius: 15px;
 }
 
 .scrollBarIcon {
@@ -40,13 +44,15 @@
 .dashboard {
   width: 75%;
   height: 100vh;
-  border: 1px solid #030303e1;
-  background-color: #030303e1;
+  border: 1px solid #15161ce1;
+  /* background-color: #030303e1; */
+  background-color: #15161ce1;
   display: flex;
+  padding: 0 30px;
   box-sizing: border-box;
   flex-flow: column;
   justify-content: flex-start;
-  align-items: center;
+  align-items: flex-start;
   overflow: auto;
 }
 
@@ -66,7 +72,7 @@
 }
 
 .sectionContainer {
-  width: 85%;
+  width: 95%;
   margin-top: 25px;
 }
 

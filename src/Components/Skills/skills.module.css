@@ -10,17 +10,19 @@
 
 .skillsH3 {
     margin: 15px 0;
+    font-size: 20px;
+    color: #f2f2f2;
 }
 
 .skillsP {
-    font-size: 14px;
+    font-size: 15px;
     color: #ededed;
     text-align: justify;
 }
 
 .skillsLink {
     text-decoration: none;
-    color: #478ed4;
+    color: #82bef9;
 }
 
 .skillsStackIconsContainer {
@@ -34,6 +36,8 @@
 
 .iconContainer {
     width: 150px;
+    flex-shrink: 2;
+    flex-grow: 9999;
     padding: 10px;
     box-sizing: border-box;
     display: flex;
@@ -44,6 +48,7 @@
 
 .icon {
     width: 70px;
+    filter: brightness(1.2);
 }
 
 .iconP {

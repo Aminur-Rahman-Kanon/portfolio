@@ -6,6 +6,7 @@
     align-items: flex-start;
     color: lightgray;
     transition: all 0.3s ease-out;
+    font-family: inherit;
 }
 
 .projectH2 {
@@ -14,12 +15,15 @@
 
 .projectH3 {
     margin: 15px 0;
+    font-size: 20px;
+    color: #f2f2f2;
 }
 
 .projectP {
-    font-size: 14px;
+    font-size: 15px;
     color: #ededed;
     text-align: justify;
+    font-family: inherit;
 }
 
 .projectsItem {

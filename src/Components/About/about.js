@@ -5,10 +5,10 @@ function About () {
     return (
         <div className={styles.aboutMeContainer} id="about">
             <h3 className={styles.aboutMeH3}>About me</h3>
-            <p className={styles.aboutMeP}>My name is Md Aminur Rahman and I'm a Web developer. I am Professionally connected with the web development industry.</p>
-            <p className={styles.aboutMeP}>I am a Problem solver, well-organised person, loyal employee with high attention to detail. Fan of Javascript, outdoor activities,
-                video games, and coding of course.</p>
-            <p className={styles.aboutMeP}>Interested in the entire frontend spectrum and working on ambitious projects with interesting people.</p>
+            <p className={styles.aboutMeP}>Hi, I'm Md Aminur Rahman, a frontend developer specializing in user-friendly websites using the MERN stack. With 4+ years of experience in HTML, CSS, JavaScript, and the MERN (MongoDB, Express.js, React, Node.js) stack, transforming design mockups into pixel-perfect sites.</p>
+            <p className={styles.aboutMeP}>I prioritize the user experience, staying up to date with the latest trends and best practices. Collaboration is key, and I enjoy working closely with designers and developers to deliver seamless interfaces.</p>
+            <p className={styles.aboutMeP}>Clean code architecture and problem-solving are my strengths. I strive for scalability and maintainability in every project. Continuous learning is important to me, and I stay engaged with online communities and conferences.</p>
+            <p className={styles.aboutMeP}>Let's discuss how I can contribute to your projects and create exceptional user experiences together!</p>
         </div>
     )
 }

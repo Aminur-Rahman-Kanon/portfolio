@@ -4,6 +4,7 @@ import person from '../../Assets/person1.jpg';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faLinkedin, faGithub } from '@fortawesome/free-brands-svg-icons';
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
+import cv from '../../Assets/files/cv.docx';
 
 function SidePanel () {
     return (
@@ -38,49 +39,49 @@ function SidePanel () {
                     <div className={styles.progressBarContainer}>
                         <div className={styles.progressBarLabel}>
                             <h6 className={styles.sidePanelH6}>Html</h6>
-                            <p className={styles.sidePanelP}>90%</p>
+                            <p className={styles.sidePanelP}>Advanced</p>
                         </div>
                         <div className={styles.progressBar} id={styles.nientyPercent}></div>
                     </div>
                     <div className={styles.progressBarContainer}>
                         <div className={styles.progressBarLabel}>
                             <h6 className={styles.sidePanelH6}>CSS</h6>
-                            <p className={styles.sidePanelP}>80%</p>
+                            <p className={styles.sidePanelP}>Proficient</p>
                         </div>
                         <div className={styles.progressBar} id={styles.eightyPercent}></div>
                     </div>
                     <div className={styles.progressBarContainer}>
                         <div className={styles.progressBarLabel}>
                             <h6 className={styles.sidePanelH6}>Javascript</h6>
-                            <p className={styles.sidePanelP}>90%</p>
+                            <p className={styles.sidePanelP}>Advanced</p>
                         </div>
                         <div className={styles.progressBar} id={styles.nientyPercent}></div>
                     </div>
                     <div className={styles.progressBarContainer}>
                         <div className={styles.progressBarLabel}>
                             <h6 className={styles.sidePanelH6}>React</h6>
-                            <p className={styles.sidePanelP}>90%</p>
+                            <p className={styles.sidePanelP}>Advanced</p>
                         </div>
                         <div className={styles.progressBar} id={styles.nientyPercent}></div>
                     </div>
                     <div className={styles.progressBarContainer}>
                         <div className={styles.progressBarLabel}>
                             <h6 className={styles.sidePanelH6}>Express</h6>
-                            <p className={styles.sidePanelP}>70%</p>
+                            <p className={styles.sidePanelP}>Proficient</p>
                         </div>
                         <div className={styles.progressBar} id={styles.seventyPercent}></div>
                     </div>
                     <div className={styles.progressBarContainer}>
                         <div className={styles.progressBarLabel}>
                             <h6 className={styles.sidePanelH6}>SQL</h6>
-                            <p className={styles.sidePanelP}>70%</p>
+                            <p className={styles.sidePanelP}>Proficient</p>
                         </div>
                         <div className={styles.progressBar} id={styles.seventyPercent}></div>
                     </div>
                     <div className={styles.progressBarContainer}>
                         <div className={styles.progressBarLabel}>
                             <h6 className={styles.sidePanelH6}>MongoDB</h6>
-                            <p className={styles.sidePanelP}>80%</p>
+                            <p className={styles.sidePanelP}>Proficient</p>
                         </div>
                         <div className={styles.progressBar} id={styles.eightyPercent}></div>
                     </div>
@@ -89,7 +90,7 @@ function SidePanel () {
                 <hr className={styles.hr}/>
 
                 <div className={styles.downloadCvBar}>
-                    <button className={styles.downloadCVbtn}>DOWNLOAD CV</button>
+                    <a href={cv} download className={styles.downloadCVbtn}>DOWNLOAD CV</a>
                 </div>
             </div>
             <div className={styles.socialLinkContainer}>

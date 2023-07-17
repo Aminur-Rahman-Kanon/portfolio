@@ -9,6 +9,8 @@ import DrawToggle from './Components/Others/DrawToggle/drawToggle';
 import SideDrawer from './Components/Others/SideDrawer/sideDrawer';
 import styles from './App.module.css';
 import Backdrop from './Components/Others/Backdrop/backdrop';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faBookOpen, faLaptopCode, faUserTie, faPhone } from '@fortawesome/free-solid-svg-icons';
 
 function App() {
 
@@ -36,10 +38,18 @@ function App() {
         <Backdrop backdrop={backdrop} toggleBackdrop={ toggleSidePanel }/>
         <div className={styles.appContainer}>
             <div className={styles.scrollBarContainer}>
-                <div className={page === 'intro' ? `${styles.scrollBarItem} ${styles.active}` : styles.scrollBarItem} onClick={() => smoothScroll('intro')}>Intro</div>
-                <div className={page === 'skills' ? `${styles.scrollBarItem} ${styles.active}` : styles.scrollBarItem} onClick={() => smoothScroll('skills')}>Skills</div>
-                <div className={page === 'projects' ? `${styles.scrollBarItem} ${styles.active}` : styles.scrollBarItem} onClick={() => smoothScroll('projects')}>Projects</div>
-                <div className={page === 'contact' ? `${styles.scrollBarItem} ${styles.active}` : styles.scrollBarItem} onClick={() => smoothScroll('contact')}>Contact</div>
+                <div className={styles.scrollBarItem} onClick={() => smoothScroll('intro')}>
+                    <FontAwesomeIcon icon={faUserTie} className={page === 'intro' ? `${styles.scrollBarIcon} ${styles.active}` : styles.scrollBarIcon}/>
+                </div>
+                <div className={styles.scrollBarItem} onClick={() => smoothScroll('skills')}>
+                    <FontAwesomeIcon icon={faBookOpen} className={page === 'skills' ? `${styles.scrollBarIcon} ${styles.active}` : styles.scrollBarIcon}/>
+                </div>
+                <div className={styles.scrollBarItem} onClick={() => smoothScroll('projects')}>
+                    <FontAwesomeIcon icon={faLaptopCode} className={page === 'projects' ? `${styles.scrollBarIcon} ${styles.active}` : styles.scrollBarIcon}/>
+                </div>
+                <div className={styles.scrollBarItem} onClick={() => smoothScroll('contact')}>
+                    <FontAwesomeIcon icon={faPhone} className={page === '' ? `${styles.scrollBarIcon} ${styles.active}` : styles.scrollBarIcon}/>
+                </div>
             </div>
             <DrawToggle toggleSidePanel={ toggleSidePanel }/>
             <SideDrawer sidePanel={sidePanel}/>

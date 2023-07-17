@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import styles from './skills.module.css';
 import js from '../../Assets/icons/js.png';
 import css from '../../Assets/icons/css.png';
@@ -15,6 +15,7 @@ import sql from '../../Assets/icons/sql.png';
 import cisco from '../../Assets/icons/cisco.png';
 
 function Skills () {
+
     return (
         <div className={styles.skillsContainer} id="skills">
             <h3 className={styles.skillsH3}>Skills</h3>
